@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center_vertical"
+        android:text="请修改"
+        android:textSize="22sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical"
+            android:text="姓名"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/correct_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical"
+            android:text="性别"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/correct_sex"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical"
+            android:text="年龄"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/correct_age"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical"
+            android:text="爱好"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/correct_hobby"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/correct_cancel"
+            android:layout_width="0dp"
+            android:onClick="choose"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="取消"/>
+        <Button
+            android:id="@+id/correct_sure"
+            android:layout_width="0dp"
+            android:onClick="choose"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="确定"/>
+    </LinearLayout>
+</LinearLayout>
